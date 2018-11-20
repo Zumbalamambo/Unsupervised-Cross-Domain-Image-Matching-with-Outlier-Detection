@@ -1,6 +1,6 @@
 # Unsupervised Cross Domain Image Matching with Outlier Detection
 
-TensorFlow implementation of the paper for unsupervised cross domain image matching (e.g. google street views match to old city photos), and detecting outliers in the target domain at the same time.
+TensorFlow implementation of the [master thesis](https://repository.tudelft.nl/islandora/object/uuid%3Afcd6c0f8-6618-4fdb-b8ad-e183b3a81b73?collection=education) for unsupervised cross domain image matching (e.g. google street views match to old city photos), and detecting outliers in the target domain at the same time.
 
 ## Prerequisites
 - Linux or maxOS
