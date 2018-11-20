@@ -10,7 +10,11 @@ TensorFlow implementation of the paper for unsupervised cross domain image match
 ## Get Started
 ### Installation
 ### Train a model
-python train.py --train\_DomainS\_path ./datasets/xx.txt --train\_DomainT\_path ./datasets/xx.txt --checkpointPath ./checkpoints --tr\_DS\_data ./datasets/Source --tr\_DT\_data ./datasets/Target
+```bash
+python train.py --train_DomainS_path ./datasets/xx.txt --train_DomainT_path ./datasets/xx.txt --checkpointPath ./checkpoints --tr_DS_data ./datasets/Source --tr_DT_data ./datasets/Target
+```
 
 ### Test
+```bash
 python test.py --databaseSetPath ./datasets/xx.txt --databaseImagePath ./datasets/Database --querySetPath ./datasets/xx.txt --queryImagePath ./datasets/Query --checkpointModel ./checkpoints/model_epoch
+```
